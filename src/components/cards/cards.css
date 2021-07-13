@@ -1,0 +1,59 @@
+.App {
+    text-align: center;
+  }
+  
+.grid-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    align-content: stretch; 
+    margin-top: 100px;
+    justify-items: center;
+    grid-column-gap:2%;
+    margin-left:5%;
+    margin-right: 5%;
+    justify-content: center;
+  }
+.grid-card2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    align-content: stretch; 
+    margin-top: 100px;
+    justify-items: center;
+    grid-column-gap:2%;
+    margin-left:5%;
+    margin-right: 5%;
+    justify-content: center;
+}
+  #card-area{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align:center;
+    width: 229px;
+  }
+ 
+
+  .box{
+    box-sizing: border-box;
+    transition: 0.5s;
+    height: 250px;
+  }
+
+  
+  @media(max-width:1000px){
+    .grid-card{
+      grid-template-columns: 1fr;
+      margin-top: 100px;
+      grid-auto-rows: 200px;
+      position: relative;
+    }
+    .box{
+      height: 100%;
+    }
+    .grid-card2{
+      grid-template-columns: 1fr;
+      margin-top: 650px;
+      grid-auto-rows: 200px;
+      position: relative;
+    }
+  }

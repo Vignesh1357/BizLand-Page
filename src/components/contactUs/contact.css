@@ -1,0 +1,28 @@
+.contact{
+    display: grid;
+    border: 0px solid rgb(165, 42, 165);
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+    width: 150px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    background-color: rgb(235, 215, 235);
+}
+.contact-btm{
+    margin-bottom: 00px;
+}
+div>h1{
+    color:royalblue;
+}
+.contact-grid{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    height: 200px;
+}
+.contact-text{
+    font-weight:normal;
+    text-align: center;
+}

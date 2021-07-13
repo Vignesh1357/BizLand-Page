@@ -1,0 +1,27 @@
+.grid-services{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.service{
+    display: grid;
+    border: 0px solid rgb(165, 42, 165);
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+    width: 150px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    background-color: rgb(235, 215, 235);
+}
+.margin{
+    margin-bottom: -25px;
+}
+.margin>h1>span{
+    color: royalblue;
+}
+.service-text{
+    font-weight:normal;
+    text-align: center;
+}
